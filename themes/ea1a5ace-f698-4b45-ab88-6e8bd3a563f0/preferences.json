@@ -50,11 +50,5 @@
         "label": "Auto-hide: Expand when searching",
         "type": "checkbox",
         "disabledOn": []
-    },
-    {
-        "property": "uc.bookmarks.transparent",
-        "label": "Enhanced transparent effects",
-        "type": "checkbox",
-        "disabledOn": []
     }
 ]
