@@ -50,20 +50,9 @@ menuitem.bookmark-item[label*="github"] .menu-icon {
   }
 }
 
-/* Default transparent bookmarks toolbar background */
-#PersonalToolbar:not([customizing]) {
-  background-color: transparent !important;
-}
-
 /* Default bookmark buttons background */
 #personal-bookmarks toolbarbutton.bookmark-item {
   background-color: var(--zen-colors-tertiary) !important;
-}
-
-/* Reduce navbar container height to only cover nav-bar */
-#zen-appcontent-navbar-container {
-  height: calc(var(--urlbar-min-height) + var(--toolbarbutton-outer-padding) * 1.5) !important;
-  overflow: visible !important;
 }
 
 /* Enhanced transparent bookmarks toolbar styles */
